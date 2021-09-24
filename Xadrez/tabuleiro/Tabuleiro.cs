@@ -14,5 +14,11 @@ namespace tabuleiro
             pecas = new Peca[linhas, colunas];
         }
 
+        //Dá acesso a classe de peças individuais
+        public Peca peca(int linha, int coluna)
+        {
+            return pecas[linha, coluna];
+        }
+
     }
 }
